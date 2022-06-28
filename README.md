@@ -12,5 +12,5 @@
 
 #### Preview :-
 <p align="center"> 
-    <img scr="https://github.com/Piyasa17/APPLICATION-FORM/blob/main/WhatsApp%20Image%202022-06-28%20at%209.28.46%20PM.png" height="400" width="200">
+    <img src="https://github.com/Piyasa17/APPLICATION-FORM/blob/main/WhatsApp%20Image%202022-06-28%20at%209.28.46%20PM.png" height="600" width="350">
 </p>
