@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION_FORM</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <form action="">
+        <h1>APPLICATION FORM</h1>
+        <hr>
+        <hr>
+        <div class="container_1">
+            <p>Required Fields are followed by *</p>
+            <h2>CONTACTS INFORMATION</h2>
+            <P>Name *<input type="text" name="name" placeholder="PIYASA BERA"  required></P>
+            <P>Father's Name *<input type="text" name="father's name" placeholder="SWAPAN BERA"  required></P>
+            <P>Mother's Name *<input type="text" name="mother's name" placeholder="HIRA BERA"  required></P>
+            <p>Address: *<textarea name="address" text="address" rows="10" columns="150" required></textarea></p>
+            <p>Email: *<input type="email" name="email" id="email" required></p>
+            <p>Contact Number: *<input type="number" name="contact number" id="contact number" required></p>
+            <hr>
+            <h2>GUARDIAN'S DETAILS  *</h2>
+            <div class="container_2">
+                <P>Name <input type="text" name="name" placeholder="TAPAN BERA"  required></P>
+                <p>Contact Number<input type="number" name="contact number" id="contact number" required></p>
+                <p>Email: <input type="email" name="email" id="email" required></p>
+            </div>
+            <hr>
+            <fieldset>
+                <legend>GENDER *</legend>
+                <p>Male: <input type="radio" name="Gender" id="Male" required></p>
+                <p>Female: <input type="radio" name="Gender" id="Female" required></p>
+                <p>Others: <input type="radio" name="Gender" id="Others" required></p>
+            </fieldset>
+            <p>Nationality: *<input type="text" name="natioanilty" required ></p>
+            <p>Religion: *<input type="text" name="religion" required ></p>
+            <fieldset>
+                <legend>ACADEMIC DETAILS</legend>
+                <p>College: * <input type="text" name="college" required></p>
+                <p>Addmission Year: *<input type="number" name="addmission year" id="addmission year" required></p>
+                <p>Graduation Year: *<input type="number" name="graduation year" id="gradutation year" required></p>
+                <p>Stream: *<input type="text" name="stream" required></p>
+                <p>Current Semester *<input type="text" name="semester" required></p>
+                <fieldset>
+                    <legend>SCHOLARSHIP STATUS *</legend>
+                    <p>Have you applied for any scholarship?</p>
+                    <p>YES: <input type="radio" name="scholarshiip" id="yes" ></p>
+                    <p>NO: <input type="radio" name="scholarship" id="no" ></p>
+                </fieldset>
+            </fieldset>
+        </div>
+        <hr>
+        <input type="submit" value="SUBMIT">
+    </form>
+</body>
+</html>
